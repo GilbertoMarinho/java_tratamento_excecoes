@@ -21,9 +21,9 @@ public class ProgramaTryCatch {
 		}catch(ArrayIndexOutOfBoundsException e){
 			System.out.println("entrada inválida");
 			System.out.println(e.getMessage());
-		}
-		
+		}finally {
 		System.out.println("Fim do programa");
 		user.close();
+		}
 	}
 }
